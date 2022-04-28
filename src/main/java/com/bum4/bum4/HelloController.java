@@ -7,11 +7,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 
-
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import org.apache.batik.transcoder.TranscoderException;
 
 public class HelloController {
 
@@ -44,10 +41,8 @@ public class HelloController {
     private List<Competition> Comps = new ArrayList<>();
     int Index ;
 
-    File f ;
-
     @FXML
-    void initialize() throws TranscoderException {
+    void initialize(){
         AreaCC.setDisable(true);
         AreaId.setDisable(true);
         AreaName.setDisable(true);
@@ -69,7 +64,7 @@ public class HelloController {
         }
 
         AreaId.setText(String.valueOf(Comps.get(Index).area.id));
-        AreaCC.setText(String.valueOf(Comps.get(Index).code));
+        AreaCC.setText(String.valueOf(Comps.get(Index).area.countryCode));
         AreaName.setText(String.valueOf(Comps.get(Index).area.name));
         ComId.setText(String.valueOf(Comps.get(Index).id));
         ComName.setText(String.valueOf(Comps.get(Index).name));
@@ -81,7 +76,7 @@ public class HelloController {
             //engine.loadContent("");
             Index++;
             AreaId.setText(String.valueOf(Comps.get(Index).area.id));
-            AreaCC.setText(String.valueOf(Comps.get(Index).code));
+            AreaCC.setText(String.valueOf(Comps.get(Index).area.countryCode));
             AreaName.setText(String.valueOf(Comps.get(Index).area.name));
             ComId.setText(String.valueOf(Comps.get(Index).id));
             ComName.setText(String.valueOf(Comps.get(Index).name));
@@ -107,7 +102,7 @@ public class HelloController {
             //engine.loadContent("");
             Index--;
             AreaId.setText(String.valueOf(Comps.get(Index).area.id));
-            AreaCC.setText(String.valueOf(Comps.get(Index).code));
+            AreaCC.setText(String.valueOf(Comps.get(Index).area.countryCode));
             AreaName.setText(String.valueOf(Comps.get(Index).area.name));
             ComId.setText(String.valueOf(Comps.get(Index).id));
             ComName.setText(String.valueOf(Comps.get(Index).name));

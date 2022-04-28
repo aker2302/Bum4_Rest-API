@@ -50,4 +50,5 @@ public class Api {
 
         return competitions;
     }
+
 }

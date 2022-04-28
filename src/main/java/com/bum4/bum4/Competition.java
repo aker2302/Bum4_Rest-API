@@ -7,6 +7,13 @@ public class Competition {
     public class Area {
         public int id;
         public String name;
+
+        public String countryCode;
+
+        @Override
+        public String toString() {
+            return "{id:" + this.id + "," + "name: "+this.name +","+ "code: "+this.countryCode +"}";
+        }
     }
     public String name;
     public String code;
