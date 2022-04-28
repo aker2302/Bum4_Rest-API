@@ -1,0 +1,971 @@
+{
+  "count": 13,
+  "filters": {
+    "dateFrom": "2022-04-27",
+    "dateTo": "2022-04-27",
+    "permission": "TIER_ONE"
+  },
+  "matches": [
+    {
+      "id": 392000,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T00:30:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E",
+      "lastUpdated": "2022-04-27T16:20:38Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": 2,
+          "awayTeam": 0
+        },
+        "halfTime": {
+          "homeTeam": 1,
+          "awayTeam": 0
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista"
+      },
+      "awayTeam": {
+        "id": 2061,
+        "name": "CA Boca Juniors"
+      },
+      "referees": []
+    },
+    {
+      "id": 391988,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T00:30:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "lastUpdated": "2022-04-27T16:20:38Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": 1,
+          "awayTeam": 1
+        },
+        "halfTime": {
+          "homeTeam": 0,
+          "awayTeam": 1
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 6989,
+        "name": "CAR Independiente del Valle"
+      },
+      "awayTeam": {
+        "id": 1766,
+        "name": "CA Mineiro"
+      },
+      "referees": []
+    },
+    {
+      "id": 392036,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T00:30:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "lastUpdated": "2022-04-27T16:20:38Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": "HOME_TEAM",
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": 1,
+          "awayTeam": 0
+        },
+        "halfTime": {
+          "homeTeam": 0,
+          "awayTeam": 0
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 2073,
+        "name": "CA Talleres"
+      },
+      "awayTeam": {
+        "id": 5347,
+        "name": "CS Cristal"
+      },
+      "referees": []
+    },
+    {
+      "id": 333591,
+      "competition": {
+        "id": 2019,
+        "name": "Serie A",
+        "area": {
+          "name": "Italy",
+          "code": "ITA",
+          "ensignUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+        }
+      },
+      "season": {
+        "id": 757,
+        "startDate": "2021-08-21",
+        "endDate": "2022-05-22",
+        "currentMatchday": 34,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T16:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 20,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2022-04-27T14:00:15Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 99,
+        "name": "ACF Fiorentina"
+      },
+      "awayTeam": {
+        "id": 115,
+        "name": "Udinese Calcio"
+      },
+      "referees": [
+        {
+          "id": 11104,
+          "name": "Ivan Pezzuto",
+          "role": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 49494,
+          "name": "Luigi Rossi",
+          "role": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 145263,
+          "name": "Mario Vigile",
+          "role": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57794,
+          "name": "Alessandro Prontera",
+          "role": "FOURTH_OFFICIAL",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11068,
+          "name": "Gianluca Aureliano",
+          "role": "VIDEO_ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11066,
+          "name": "Alessandro Lo Cicero",
+          "role": "VIDEO_ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
+    },
+    {
+      "id": 333593,
+      "competition": {
+        "id": 2019,
+        "name": "Serie A",
+        "area": {
+          "name": "Italy",
+          "code": "ITA",
+          "ensignUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+        }
+      },
+      "season": {
+        "id": 757,
+        "startDate": "2021-08-21",
+        "endDate": "2022-05-22",
+        "currentMatchday": 34,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T18:15:00Z",
+      "status": "SCHEDULED",
+      "matchday": 20,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2022-04-27T16:15:15Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 102,
+        "name": "Atalanta BC"
+      },
+      "awayTeam": {
+        "id": 586,
+        "name": "Torino FC"
+      },
+      "referees": [
+        {
+          "id": 11067,
+          "name": "Pasquale De Meo",
+          "role": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57233,
+          "name": "Pasquale Capaldo",
+          "role": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 172436,
+          "name": "Niccolo Baroni",
+          "role": "FOURTH_OFFICIAL",
+          "nationality": null
+        },
+        {
+          "id": 10990,
+          "name": "Piero Giacomelli",
+          "role": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11063,
+          "name": "Aleandro Di Paolo",
+          "role": "VIDEO_ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11049,
+          "name": "Ciro Carbone",
+          "role": "VIDEO_ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11051,
+          "name": "Matteo Passeri",
+          "role": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11007,
+          "name": "Alessandro Costanzo",
+          "role": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 172280,
+          "name": "Daniele Minelli",
+          "role": "FOURTH_OFFICIAL",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11006,
+          "name": "Rosario Abisso",
+          "role": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11043,
+          "name": "Maurizio Mariani",
+          "role": "VIDEO_ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11038,
+          "name": "Lucas Mondin",
+          "role": "VIDEO_ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
+    },
+    {
+      "id": 333592,
+      "competition": {
+        "id": 2019,
+        "name": "Serie A",
+        "area": {
+          "name": "Italy",
+          "code": "ITA",
+          "ensignUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+        }
+      },
+      "season": {
+        "id": 757,
+        "startDate": "2021-08-21",
+        "endDate": "2022-05-22",
+        "currentMatchday": 34,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T18:15:00Z",
+      "status": "SCHEDULED",
+      "matchday": 20,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2022-04-27T16:15:15Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 103,
+        "name": "Bologna FC 1909"
+      },
+      "awayTeam": {
+        "id": 108,
+        "name": "FC Internazionale Milano"
+      },
+      "referees": [
+        {
+          "id": 11267,
+          "name": "Mauro Galetto",
+          "role": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57242,
+          "name": "Alessandro Cipressa",
+          "role": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57836,
+          "name": "Luca Massimi",
+          "role": "FOURTH_OFFICIAL",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57842,
+          "name": "Giovanni Ayroldi",
+          "role": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11065,
+          "name": "Daniele Doveri",
+          "role": "VIDEO_ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 10992,
+          "name": "Stefano Alassio",
+          "role": "VIDEO_ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57247,
+          "name": "Davide Imperiale",
+          "role": "ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11118,
+          "name": "Dario Cecconi",
+          "role": "ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        },
+        {
+          "id": 57762,
+          "name": "Matteo Marchetti",
+          "role": "FOURTH_OFFICIAL",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11065,
+          "name": "Daniele Doveri",
+          "role": "REFEREE",
+          "nationality": "Italy"
+        },
+        {
+          "id": 10985,
+          "name": "Michael Fabbri",
+          "role": "VIDEO_ASSISTANT_REFEREE_N1",
+          "nationality": "Italy"
+        },
+        {
+          "id": 11044,
+          "name": "Giacomo Paganessi",
+          "role": "VIDEO_ASSISTANT_REFEREE_N2",
+          "nationality": "Italy"
+        }
+      ]
+    },
+    {
+      "id": 327766,
+      "competition": {
+        "id": 2016,
+        "name": "Championship",
+        "area": {
+          "name": "England",
+          "code": "ENG",
+          "ensignUrl": "https://crests.football-data.org/770.svg"
+        }
+      },
+      "season": {
+        "id": 735,
+        "startDate": "2021-08-07",
+        "endDate": "2022-05-09",
+        "currentMatchday": 44,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 39,
+      "stage": "REGULAR_SEASON",
+      "group": null,
+      "lastUpdated": "2022-04-26T01:32:00Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 343,
+        "name": "Middlesbrough FC"
+      },
+      "awayTeam": {
+        "id": 715,
+        "name": "Cardiff City FC"
+      },
+      "referees": []
+    },
+    {
+      "id": 391834,
+      "competition": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "area": {
+          "name": "Europe",
+          "code": "EUR",
+          "ensignUrl": "https://crests.football-data.org/EUR.svg"
+        }
+      },
+      "season": {
+        "id": 734,
+        "startDate": "2021-06-22",
+        "endDate": "2022-05-28",
+        "currentMatchday": 7,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T19:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": null,
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "lastUpdated": "2022-04-27T17:00:15Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 64,
+        "name": "Liverpool FC"
+      },
+      "awayTeam": {
+        "id": 94,
+        "name": "Villarreal CF"
+      },
+      "referees": [
+        {
+          "id": 172059,
+          "name": "Pawel Sokolnicki",
+          "role": "ASSISTANT_REFEREE_N1",
+          "nationality": null
+        },
+        {
+          "id": 43890,
+          "name": "Tomasz Listkiewicz",
+          "role": "ASSISTANT_REFEREE_N2",
+          "nationality": "Poland"
+        },
+        {
+          "id": 9351,
+          "name": "Slavko Vinčič",
+          "role": "FOURTH_OFFICIAL",
+          "nationality": "Slovenia"
+        },
+        {
+          "id": 43888,
+          "name": "Szymon Marciniak",
+          "role": "REFEREE",
+          "nationality": "Poland"
+        },
+        {
+          "id": 72624,
+          "name": "Tomasz Kwiatkowski",
+          "role": "VIDEO_ASSISTANT_REFEREE_N1",
+          "nationality": "Poland"
+        },
+        {
+          "id": 43857,
+          "name": "Bartosz Frankowski",
+          "role": "VIDEO_ASSISTANT_REFEREE_N2",
+          "nationality": "Poland"
+        }
+      ]
+    },
+    {
+      "id": 391987,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T22:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "lastUpdated": "2022-04-06T08:35:05Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 1838,
+        "name": "América FC"
+      },
+      "awayTeam": {
+        "id": 4437,
+        "name": "CD Tolima"
+      },
+      "referees": []
+    },
+    {
+      "id": 392012,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-27T22:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "lastUpdated": "2022-04-14T16:20:31Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 3984,
+        "name": "Fortaleza EC"
+      },
+      "awayTeam": {
+        "id": 5680,
+        "name": "Club Alianza Lima"
+      },
+      "referees": []
+    },
+    {
+      "id": 391951,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "lastUpdated": "2022-04-06T08:35:02Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 4523,
+        "name": "CS Emelec"
+      },
+      "awayTeam": {
+        "id": 1769,
+        "name": "SE Palmeiras"
+      },
+      "referees": []
+    },
+    {
+      "id": 392024,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_G",
+      "lastUpdated": "2022-04-15T08:20:31Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 9373,
+        "name": "Club Cerro Porteño"
+      },
+      "awayTeam": {
+        "id": 5184,
+        "name": "CA Peñarol"
+      },
+      "referees": []
+    },
+    {
+      "id": 392011,
+      "competition": {
+        "id": 2152,
+        "name": "Copa Libertadores",
+        "area": {
+          "name": "South America",
+          "code": "SAM",
+          "ensignUrl": null
+        }
+      },
+      "season": {
+        "id": 873,
+        "startDate": "2022-02-08",
+        "endDate": "2022-03-17",
+        "currentMatchday": 2,
+        "winner": null
+      },
+      "utcDate": "2022-04-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "lastUpdated": "2022-04-06T08:35:08Z",
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "halfTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "extraTime": {
+          "homeTeam": null,
+          "awayTeam": null
+        },
+        "penalties": {
+          "homeTeam": null,
+          "awayTeam": null
+        }
+      },
+      "homeTeam": {
+        "id": 4410,
+        "name": "CSD Colo-Colo"
+      },
+      "awayTeam": {
+        "id": 6667,
+        "name": "CA River Plate"
+      },
+      "referees": []
+    }
+  ]
+}

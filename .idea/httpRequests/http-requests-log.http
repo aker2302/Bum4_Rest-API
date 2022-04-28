@@ -1,0 +1,31 @@
+GET https://api.football-data.org/v2/matches
+Accept: application/json
+X-Auth-Token: fb9c1a6574684a6188ef50b1c70c2858
+
+<> 2022-04-28T163811.200.json
+
+###
+
+GET https://api.football-data.org/v2/matches
+Accept: application/json
+X-Auth-Token: fb9c1a6574684a6188ef50b1c70c2858
+
+<> 2022-04-28T040155.200.json
+
+###
+
+GET https://api.football-data.org/v2/matches
+Accept: application/json
+X-Auth-Token: fb9c1a6574684a6188ef50b1c70c2858
+
+<> 2022-04-27T173726.200.json
+
+###
+
+GET https://api.football-data.org/v2/matches
+Accept: application/json
+
+<> 2022-04-27T173616.200.json
+
+###
+
