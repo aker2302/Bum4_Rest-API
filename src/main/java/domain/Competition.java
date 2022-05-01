@@ -1,4 +1,4 @@
-package com.bum4.bum4;
+package domain;
 
 public class Competition {
     public int id;

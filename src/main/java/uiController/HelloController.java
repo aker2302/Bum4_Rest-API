@@ -1,12 +1,13 @@
-package com.bum4.bum4;
+package uiController;
 
+import domain.Competition;
+import service.Api;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,8 +52,12 @@ public class HelloController {
 
         Comps = Api.setCompetitions();
         Index = 0;
-
         engine = MyLogo.getEngine();
+
+        checkUrl(Index);
+        setInputFeild(Index);
+    }
+    public void checkUrl(int Ind){
         if(Comps.get(Index).emblemUrl != null){
             System.out.println("************ Url available ***********");
             engine.load(Comps.get(Index).emblemUrl);
@@ -62,61 +67,31 @@ public class HelloController {
             engine.loadContent("");
             MyLogo.setZoom(0.36);
         }
-
+    }
+    public void setInputFeild(int Ind){
         AreaId.setText(String.valueOf(Comps.get(Index).area.id));
         AreaCC.setText(String.valueOf(Comps.get(Index).area.countryCode));
         AreaName.setText(String.valueOf(Comps.get(Index).area.name));
         ComId.setText(String.valueOf(Comps.get(Index).id));
         ComName.setText(String.valueOf(Comps.get(Index).name));
     }
-
     @FXML
     void OnNext(ActionEvent event) {
         if(Index < Comps.size()-1){
-            //engine.loadContent("");
             Index++;
-            AreaId.setText(String.valueOf(Comps.get(Index).area.id));
-            AreaCC.setText(String.valueOf(Comps.get(Index).area.countryCode));
-            AreaName.setText(String.valueOf(Comps.get(Index).area.name));
-            ComId.setText(String.valueOf(Comps.get(Index).id));
-            ComName.setText(String.valueOf(Comps.get(Index).name));
+            setInputFeild(Index);
             PreviousBtn.setDisable(false);
-            if(Comps.get(Index).emblemUrl != null){
-                System.out.println("************ Url available ***********");
-                engine.load(Comps.get(Index).emblemUrl);
-                MyLogo.setZoom(0.36);
-            }else{
-                System.out.println("============= No Url ============");
-                engine.loadContent("");
-                MyLogo.setZoom(0.36);
-            }
-
+            checkUrl(Index);
         }else{
             NextBtn.setDisable(true);
         }
     }
-
     @FXML
     void OnPrevious(ActionEvent event) {
         if(Index > 0){
-            //engine.loadContent("");
             Index--;
-            AreaId.setText(String.valueOf(Comps.get(Index).area.id));
-            AreaCC.setText(String.valueOf(Comps.get(Index).area.countryCode));
-            AreaName.setText(String.valueOf(Comps.get(Index).area.name));
-            ComId.setText(String.valueOf(Comps.get(Index).id));
-            ComName.setText(String.valueOf(Comps.get(Index).name));
-            NextBtn.setDisable(false);
-            if(Comps.get(Index).emblemUrl != null){
-                System.out.println("************ Url available ***********");
-                engine.load(Comps.get(Index).emblemUrl);
-                MyLogo.setZoom(0.36);
-            }else{
-                System.out.println("============= No Url ============");
-                engine.loadContent("");
-                MyLogo.setZoom(0.36);
-            }
-
+            setInputFeild(Index);
+            checkUrl(Index);
         }else{
             PreviousBtn.setDisable(true);
         }

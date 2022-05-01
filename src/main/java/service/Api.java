@@ -1,5 +1,6 @@
-package com.bum4.bum4;
+package service;
 
+import domain.Competition;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;

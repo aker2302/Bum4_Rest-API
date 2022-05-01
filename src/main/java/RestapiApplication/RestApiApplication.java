@@ -1,4 +1,4 @@
-package com.bum4.bum4;
+package RestapiApplication;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,10 +8,10 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 
-public class HelloApplication extends Application {
+public class RestApiApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(RestApiApplication.class.getResource("restapi-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 685, 414);
         stage.setTitle("REST Client for competitions");
         stage.setScene(scene);

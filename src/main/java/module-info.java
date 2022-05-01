@@ -4,12 +4,17 @@ module com.bum4.bum4 {
     requires okhttp3;
     requires gson;
     requires java.sql;
-    requires batik.transcoder;
     requires java.desktop;
     requires javafx.swing;
     requires javafx.web;
 
 
-    opens com.bum4.bum4 to javafx.fxml;
-    exports com.bum4.bum4;
+    opens RestapiApplication to javafx.fxml;
+    exports RestapiApplication;
+    exports domain;
+    opens domain to javafx.fxml;
+    exports service;
+    opens service to javafx.fxml;
+    exports uiController;
+    opens uiController to javafx.fxml;
 }
